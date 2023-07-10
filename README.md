@@ -1,7 +1,7 @@
 # PD_Exercicios_08
 
 **Numero da Lista**: 8<br>
-**Conteudo da Disciplina**: D&C<br>
+**Conteudo da Disciplina**: PD<br>
 
 ## Alunos
 | Matricula | Aluno                              |
@@ -10,11 +10,11 @@
 | 212002907 | Zenilda Pedrosa Vieira             |
 
 ## Sobre 
-Escolhemos 4 do Beecrowd sobre a materia estudada. 
+Escolhemos 4 exercícios do Beecrowd sobre a materia estudada. 
 
 > Algoritmo de Bellman-Ford (menor caminho) - Nivel 5 - [1100 - Movimentos do Cavalo](1100/Beecrowd_1100_Movimentos_do_Cavalo.py)<br>
-> Algoritmo de Programacao Dinamica - Nivel 5 - [1288 - Canhao de Destruicao](1288/Beecrowd_1288_Canhao_de_Destruicao.c)<br>
-> Algoritmo da Mochila - Nivel 5 - [2026 - arvore de Natal](2026/Beecrowd_2026_Arvore_de_Natal.py)<br>
+> Algoritmo da Mochila - Nivel 5 - [1288 - Canhao de Destruicao](1288/Beecrowd_1288_Canhao_de_Destruicao.c)<br>
+> Algoritmo de Programacao Dinamica - Nivel 5 - [2026 - Arvore de Natal](2026/Beecrowd_2026_Arvore_de_Natal.py)<br>
 > Algoritmo de Maior subsequencia crescente - Nivel 7 - [2919 - Melhor Ordem](2919/Beecrowd_2919_Melhor_Ordem.c)<br>
 
 ## Screenshots
@@ -40,14 +40,14 @@ Para rodar basta clonar o repositorio e usar o comando no terminal (dentro da pa
 
 ou (para os codigos em C)
     
-    gcc -o nome_arquivo nome_arquivo.cpp
+    gcc -o nome_arquivo nome_arquivo.c
     ./nome_arquivo < nome_arquivo_entrada.txt
 
 Outra forma de verificar o codigo e submete-lo ao juiz do Beecrowd:
 
 [Beecrowd - 1100 - Movimentos do Cavalo](https://www.beecrowd.com.br/judge/pt/problems/view/1100)<br>
 [Beecrowd - 1288 - Canhao de Destruicao](https://www.beecrowd.com.br/judge/pt/problems/view/1288)<br>
-[Beecrowd - 2026 - arvore de Natal](https://www.beecrowd.com.br/judge/pt/problems/view/2026)<br>
+[Beecrowd - 2026 - Arvore de Natal](https://www.beecrowd.com.br/judge/pt/problems/view/2026)<br>
 [Beecrowd - 2919 - Melhor Ordem](https://www.beecrowd.com.br/judge/pt/problems/view/2919)<br>
 
 

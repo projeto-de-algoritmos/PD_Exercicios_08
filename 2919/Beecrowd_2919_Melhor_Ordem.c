@@ -53,12 +53,13 @@ int main() {
         // Solucao - maior subsequencia crescente
         // encontrando a maior subsequência crescente - O(nlgn)
         // ===========================================================================================================
+        
         int* MSC = (int*)malloc(qtde_elementos * sizeof(int));
-        int tam_seq = 0;
+        int tam_maior_subseq = 0;
         for (int i = 0; i < qtde_elementos; ++i) {
             int num = nums[i];
             int esq = 0;
-            int dir = tam_seq;
+            int dir = tam_maior_subseq;
             while (esq < dir) {
                 int meio = (esq + dir) / 2;
                 if (MSC[meio] < num)
@@ -66,17 +67,17 @@ int main() {
                 else
                     dir = meio;
             }
-            if (esq == tam_seq)
-                MSC[tam_seq++] = num;
+            if (esq == tam_maior_subseq)
+                MSC[tam_maior_subseq++] = num;
             else
                 MSC[esq] = num;
         }
         free(MSC);
-
+        
         // ===============================================================================================================
         // Saida
         // ===============================================================================================================
-        printf("%d\n", tam_seq);
+        printf("%d\n", tam_maior_subseq);
         free(nums);
         //free(L);
     }
