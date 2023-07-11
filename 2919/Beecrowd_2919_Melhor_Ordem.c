@@ -36,7 +36,7 @@ int main() {
         /*
         int* L = (int*)malloc(qtde_elementos * sizeof(int));
         int tam_maior_subseq = 0;
-        for (int j = 1; j < qtde_elementos; j++) {
+        for (int j = 0; j < qtde_elementos; j++) {
             L[j] = 1;
             for (int i = 0; i < j; i++) {
                 if (nums[i] < nums[j] && (1 + L[i]) > L[j]) {
